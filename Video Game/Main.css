@@ -1,0 +1,260 @@
+html{
+    font-size: 62.5%;
+}
+.bannerheader{
+    color: #000000;
+    text-align: center;
+    font-size: 6rem;
+}
+.header{
+    color: #000000;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+ul li{
+    padding: 0px 75px 0px 75px;
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    color: #4e4747;
+}
+body{
+    background: #0fb438;
+    Margin: 0px;
+    width: 100%;
+}
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+p{
+    font-size: 2.5rem;
+    width: 95%;
+    text-align: center;
+}
+th{
+    font-size: 30px;
+}
+table, th, td {
+    border: 1px solid #000000;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.Img {
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+}
+div {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#Contact {
+    Width: 95%;
+    margin-top: 10rem;
+}
+tr td{
+    padding: 2rem 2rem 2rem 2rem;
+}
+td{
+    font-size: 2.2rem;
+}
+.navigation a{
+    color: rgb(18, 43, 29);
+    font-size: 3.5rem;
+    text-decoration: none;
+    margin-left: 13rem;
+    text-align: center;
+}
+.navigation a:hover{
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #ec1b1b;
+    color: #1f1b19;
+}
+.btn{
+    background-color: #309b06;
+    color: white;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-header.initial{
+    background:url(Img/header.jpg);
+    height: 80vh;
+    background-size: cover;
+    min-height: 50rem;
+    background-position: center center;
+    
+
+}
+
+.square{
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #000000;
+    background-color: #ecfd00;
+   padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    max-width: 95%;
+    max-height: 95%;
+    object-position: center;
+}
+#console{
+    padding: 2rem;
+    width: 90%;
+    height: 15rem;
+    background-color: #309b06;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.opinions{
+    flex-basis:calc(33%-2rem);
+    text-align: center;
+}
+.blog{
+    flex-basis: calc(33%-2rem);
+  
+}
+.input-blog{
+    background: #c5ee11;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1rem;
+    width:95%;
+}
+.post{
+    background: #c5ee11;
+    height:30rem;
+    width: 80rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.input-blog p{
+    font-size: 1.8rem;
+}
+.post blockquote{
+    font-size:1.7rem;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 2rem;
+
+}
+.footer p{
+    text-align: center;
+    font-size: 3rem;
+}
+.footer nav{
+    text-decoration: none;
+    text-align: center;
+}
+.main{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+}
+.content{
+    width:95%;
+    max-width: 200rem;
+    margin: auto;
+}
+/* contact header*/
+.site-header{
+    background-color: #1f1b19;
+    padding: .5rem;
+}
+.order{
+    background-color: #c5ee11;
+  
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+}
+.class{
+    display: block;
+}
+#mage{
+margin: 0 auto;
+text-align: center;
+font-size: 2rem;
+}
+
+
+/* use "!important for bootstrap to avoid css changing it with global settings*/
+
+/* Styles to the elements*/
+
+.all-divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-divs{
+    
+    
+}
+
+/* Contact form*/
+legend{
+    font-size: 2.2rem;
+}
+label {
+    display: block;
+    font-size:1.8rem;
+    font-family: sans-serif;
+}
+input[type="text"],input[type="email"],input[type="tel"],input[type="number"],textarea{
+    font-family: 'lato', sans-serif;
+    font-size: 1.8rem;
+    background-color: #c0b4b4;
+    padding: .5rem;
+    border: none;
+    display: block;
+    width: 80%;
+}
+input[type="tel"],input[type="number"]{
+    width: 40%;
+}
+#fb{
+    text-align: center;
+}
+.btn-lg {
+    text-align: center;
+}
+
+#melee{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+.Item{
+    width:5rem;
+    height: 5rem;
+
+}
+
+.Win{
+    width:30rem;
+    height:30rem;
+}

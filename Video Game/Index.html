@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Main.css" rel="stylesheet" type="text/css">
+    <title>Video Game</title>
+</head>
+
+<body>
+        <div class="site-divs">
+            
+            <div class="all-divs">
+                <!---this is the melee div-->
+                <div class="square">
+                    <img class="Img" src="Img/maxed.png">
+                    <div id="melee"></div>  
+                    <button onclick="melee.attack(mage, selectItem())" name="attack" class="btn">
+                        <em><strong>Attack!</strong></em></button>
+                </div>
+                <!---This is the middle div that contains combat text-->
+                <div class="square class">
+                        <h1 class="header">Video Game</h1>
+                        <br><br><br>
+                <img class="Img" src="Img/logo.png" width="20%">
+                <div id="console" class="square">
+                    <p> Combat happens here...</p>
+                </div>
+                </div>
+                <!---This is the mage div-->
+                <div class="square">
+                    <img class="Img" src="Img/mystic.png">
+                    <div id="mage"></div>
+                    <button onclick="mage.attack(melee, selectItem())" name="attack" class="btn">
+                        <em><strong>Attack!</strong></em></button>
+                        </div>
+            </div>
+        </div>
+ 
+    <div class="footer">
+        <div class="copyright">
+            <p>All the rights reserved &copy; Travis Morrison</p>
+        </div>
+    </div>
+    </div>
+    <script src="myscript.js"></script>
+
+
+</body>
+
+</html>
